@@ -1,0 +1,7 @@
+# Visual Testing Agent
+test_agent.py
+helm_tests.json
+
+# Python caches
+__pycache__/
+*.pyc

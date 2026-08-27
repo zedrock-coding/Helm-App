@@ -63,6 +63,12 @@
 - Prioritize improvements based on user needs and product usage.
 - Avoid unnecessary complexity and focus on delivering practical value.
 
+## 8. Offline Data Synchronization
+
+- Add a synchronization method that updates the online database whenever locally stored changes are made while the user is offline.
+- Queue offline changes and automatically upload them when the connection is restored.
+- Handle retries and potential data conflicts safely.
+
 ## Recommended Initial Focus
 
 1. Improve AI-powered task creation.
