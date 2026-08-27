@@ -11,6 +11,7 @@
   - Priority
   - Task list or category
 - Enable two-way communication instead of relying only on one-way prompts.
+- Explore using Pocket TTS, a lightweight text-to-speech model that can run on a simple server or CPU-only computer with minimal infrastructure requirements. It could provide natural-sounding audio feedback, task reminders, confirmations, and encouraging responses from the AI assistant.
 
 ## 2. Automated Task Creation
 
