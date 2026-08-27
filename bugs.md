@@ -28,3 +28,7 @@
 - The application navigation has usability and functionality issues.
 - Some navigation items do not behave as expected.
 - Navigation should be reviewed for consistent routing, active states, and back/forward behavior.
+
+## Comments
+- The comments sent are somehow doubled, so limit is exhausted in once
+- Also cannot comment on task made by admin/owner or higher authority person.
