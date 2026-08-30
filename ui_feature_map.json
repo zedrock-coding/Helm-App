@@ -1,0 +1,96 @@
+{
+  "app_name": "Helm 3.0",
+  "resolution": {
+    "width": 1280,
+    "height": 800,
+    "normalized_scale": 1000
+  },
+  "routes_and_screens": {
+    "auth_screen": {
+      "path": "#/auth",
+      "description": "Authentication and Login screen",
+      "elements": {
+        "email_input": { "normalized_coords": [500, 480], "type": "input", "placeholder": "Email address" },
+        "password_input": { "normalized_coords": [500, 560], "type": "input", "placeholder": "Password" },
+        "sign_in_button": { "normalized_coords": [500, 640], "type": "button", "label": "Sign In" },
+        "sign_up_toggle": { "normalized_coords": [500, 710], "type": "button", "label": "Create Account" }
+      }
+    },
+    "legal_eula_modal": {
+      "type": "dialog",
+      "description": "EULA & Legal Agreements modal",
+      "elements": {
+        "accept_all_button": { "normalized_coords": [740, 890], "type": "button", "label": "ACCEPT ALL" },
+        "decline_button": { "normalized_coords": [260, 890], "type": "button", "label": "DECLINE" }
+      }
+    },
+    "onboarding_screen": {
+      "path": "#/onboarding",
+      "description": "Tutorial pages carousel",
+      "elements": {
+        "page_swipe_area": { "swipe_start": [800, 500], "swipe_end": [200, 500], "type": "gesture" },
+        "page_dots": { "normalized_coords": [500, 820], "type": "indicators" }
+      }
+    },
+    "main_dashboard": {
+      "path": "#/home",
+      "description": "Main task board and command center",
+      "elements": {
+        "sidebar_toggle": { "normalized_coords": [25, 35], "type": "button", "icon": "hamburger" },
+        "command_input_bar": { "normalized_coords": [500, 940], "type": "input", "label": "AI Text Command" },
+        "add_task_fab": { "normalized_coords": [950, 920], "type": "button", "icon": "plus" },
+        "profile_avatar": { "normalized_coords": [965, 40], "type": "button", "icon": "profile" },
+        "task_card_list": { "normalized_coords": [500, 350], "type": "scrollable_list" },
+        "task_checkbox": { "normalized_coords": [80, 300], "type": "checkbox" },
+        "task_drag_handle": { "normalized_coords": [920, 300], "type": "drag_handle" }
+      }
+    },
+    "sidebar_navigation": {
+      "type": "drawer",
+      "elements": {
+        "all_tasks_nav": { "normalized_coords": [110, 150], "type": "nav_item", "label": "All Tasks" },
+        "calendar_nav": { "normalized_coords": [110, 210], "type": "nav_item", "label": "Calendar" },
+        "communities_nav": { "normalized_coords": [110, 270], "type": "nav_item", "label": "Communities" },
+        "support_feedback_nav": { "normalized_coords": [110, 460], "type": "nav_item", "label": "Support & Feedback" }
+      }
+    },
+    "calendar_screen": {
+      "path": "#/calendar",
+      "description": "Interactive deadline calendar",
+      "elements": {
+        "calendar_grid": { "normalized_coords": [500, 350], "type": "calendar" },
+        "date_cell_with_badge": { "normalized_coords": [286, 568], "type": "cell" },
+        "all_tasks_chip": { "normalized_coords": [266, 641], "type": "chip", "label": "All Tasks" }
+      }
+    },
+    "communities_screen": {
+      "path": "#/communities",
+      "description": "Workspaces and community overview",
+      "elements": {
+        "new_community_button": { "normalized_coords": [67, 393], "type": "button", "label": "New Community" },
+        "community_name_input": { "normalized_coords": [577, 139], "type": "input", "placeholder": "Community Name" },
+        "submit_community_button": { "normalized_coords": [953, 139], "type": "button", "label": "Create" },
+        "community_card": { "normalized_coords": [278, 398], "type": "card" },
+        "owner_role_badge": { "normalized_coords": [350, 400], "type": "badge", "text": "Owner" }
+      }
+    },
+    "task_details_modal": {
+      "type": "dialog",
+      "description": "Task card discussion and details",
+      "elements": {
+        "status_toggle": { "normalized_coords": [120, 200], "type": "checkbox" },
+        "comment_input": { "normalized_coords": [845, 878], "type": "input", "placeholder": "Write comment..." },
+        "send_comment_button": { "normalized_coords": [952, 878], "type": "button", "icon": "send" },
+        "limit_reached_banner": { "normalized_coords": [845, 830], "type": "banner", "text": "Limit Reached" }
+      }
+    },
+    "account_settings_dropdown": {
+      "type": "menu",
+      "elements": {
+        "account_settings_item": { "normalized_coords": [894, 116], "type": "menu_item", "label": "Account Settings" },
+        "sign_out_item": { "normalized_coords": [894, 180], "type": "menu_item", "label": "Sign Out" },
+        "avatar_initials_circle": { "normalized_coords": [965, 40], "type": "avatar" }
+      }
+    }
+  }
+}
